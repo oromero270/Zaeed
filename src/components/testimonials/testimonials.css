@@ -1,0 +1,62 @@
+.music__container{
+    display: grid;
+    grid-template-columns:repeat(3,1fr) ;
+    gap: 2.5rem;
+}
+
+.music__song{
+    background: var(--color-bg-var);
+    border-radius: 2rem;
+    padding: 1.3rem;
+    border: 1px solid transparent;
+    transition: 1.3s;
+}
+
+.music__song:hover{
+    transform: scale(1.3);
+    background:  rgba(0,0,0,.5);
+    color: var(--color-primary);
+    box-shadow: 2px 2px 2px #000;
+    z-index: 2;
+}
+
+.music__song-image{
+    border-radius:1.5rem ;
+    overflow: hidden;
+}
+
+.music__song h3{
+    margin: 1.2rem 0 2rem;
+}
+.music__song h5{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.music__cta{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* media quaries MED devices   */
+
+@media screen and (max-width:1024px){
+    .music__container{
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+    
+}
+
+/* media quaries Small devices   */
+
+@media screen and (max-width:600px){
+
+.music__container{
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+    
+}

@@ -1,9 +1,35 @@
 import React from 'react'
 import './footer.css'
+import {BsInstagram} from 'react-icons/bs'
+import {BsSpotify} from 'react-icons/bs'
+import {BsYoutube} from 'react-icons/bs'
+import {BsFacebook} from 'react-icons/bs'
 
 const Footer = () => {
   return (
-    <section id='footer'>Footer</section>
+    <footer>
+      <a href="#" className='footer__logo'>Zaeed</a>
+
+      <ul className='permalinks'>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#perfs">Performances</a></li>
+        <li><a href="#calander">Calander</a></li>
+        <li><a href="#merch">Merchandise</a></li>
+        <li><a href="#music">Music</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div className="footer__socials">
+      <a href="https://www.instagram.com/zaeedhnpr/" target="_blank"><BsInstagram/></a>
+        <a href="https://open.spotify.com/artist/6oKe9ykerZRf9ghCORfjbQ?si=RYwIVaDKS8mdwv3pLAfTjw" target="_blank"><BsSpotify/></a>
+        <a href="https://www.youtube.com/channel/UCVwm964aZ-wWgQ9V0NKcrcw/featured" target="_blank"><BsYoutube/></a>
+        <a href="https://www.facebook.com/Zaeed-110399764811848" target="_blank"><BsFacebook/></a>
+      </div>
+      <div className="footer__copyrights">
+        <small>&copy; Zaeed Official. All rights reserved.</small>
+      </div>
+    </footer>
   )
 }
 
