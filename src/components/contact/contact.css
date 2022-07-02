@@ -53,6 +53,7 @@ input,textarea{
     border: 2px solid var(--color-primary-var);
 }
 
+
 /* media quaries MED devices   */
 
 @media screen and (max-width:1024px){

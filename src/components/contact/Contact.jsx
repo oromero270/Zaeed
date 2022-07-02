@@ -13,7 +13,7 @@ const Contact = () => {
           <article className='contact_option'>
             <TbMailFast className='contact__icon'/>
             <h4>Email</h4>
-            <h5>KIDKUID</h5>
+            <h5>Your email here</h5>
             <a href="mailto:enteremailhere" target="_blank">Send an E-mail</a>
           </article>
           <article className='contact_option'>
@@ -25,7 +25,7 @@ const Contact = () => {
           <article className='contact_option'>
             <TbMailFast className='contact__icon'/>
             <h4>Whats App</h4>
-            <h5>####</h5>
+            <h5>Your number here</h5>
             <a href="https://api.whatsapp.com/send?phone+#######" target="_blank">Whats up!</a>
           </article>
         </div>

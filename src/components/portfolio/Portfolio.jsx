@@ -4,8 +4,8 @@ import { GiHeavyArrow } from "react-icons/gi";
 const Portfolio = () => {
   return (
     <section id="merch">
-      <h5>What I Offer</h5>
-      <h2>New Merch</h2>
+      <h5>New Merch</h5>
+      <h2>Official Merchandise</h2>
       <div className="container merch__container">
         <article className="merch">
           <div className="merch__head">

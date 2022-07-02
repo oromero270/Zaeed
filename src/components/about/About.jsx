@@ -32,7 +32,9 @@ const About = () => {
             <article className='about__card'>
             <SiBeatsbydre className='about__icon' />
               <h5>Style</h5>
-              <small>Latin, Trap, Regeton , the future of music</small>
+              <small>Latin, Trap, Regeton</small>
+              <br />
+              <small>The future of Latin music</small>
             </article>
 
             <p className='details'>
