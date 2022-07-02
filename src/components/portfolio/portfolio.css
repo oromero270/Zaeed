@@ -1,0 +1,75 @@
+.merch__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+
+.merch{
+    background: var(--color-bg-var);
+    border-radius: 0 0 2rem 2rem;
+    border: 1px solid var(--color-primary);
+    height: fit-content;
+    transition: var(--transition);
+
+}
+
+.merch:hover{
+    background: transparent;
+    border-color: var(--color-primary-var);
+    cursor: default;
+}
+
+.merch__head{
+    background: var(--color-primary);
+    padding: 2rem;
+    border-radius: 0 0 2rem 2rem;
+    box-shadow: 0 2rem 1rem rgba(0, 0, 0, .1
+    );
+}
+
+.merch__head h3{
+    color:var(--color-bg) ;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.merch__list{
+    padding: 2rem;
+}
+
+.merch__list li{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: .8rem;
+}
+
+.merch__icon{
+    color: var(--color-primary);
+    margin-top: 2px;
+}
+
+.merch__list p{
+    font-size: .9rem;
+}
+/* media quaries MED devices   */
+
+@media screen and (max-width:1024px){
+    .merch__container{
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+    .merch{
+        height: auto;
+    }
+}
+
+/* media quaries Small devices   */
+
+@media screen and (max-width:600px){
+
+.merch__container{
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+    
+}
